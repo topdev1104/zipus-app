@@ -1,0 +1,11 @@
+{
+  "name": "zipus-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -l 4000"
+  },
+  "author": "",
+  "license": "ISC"
+}
