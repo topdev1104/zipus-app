@@ -1,0 +1,43 @@
+var map = {
+	"./accordionIndicator.svg": 286,
+	"./bridgeIcon.svg": 287,
+	"./bridgeIconActive.svg": 288,
+	"./earnIcon.svg": 289,
+	"./earnIconActive.svg": 290,
+	"./explorerIcon.svg": 389,
+	"./explorerIconActive.svg": 390,
+	"./governanceIcon.svg": 291,
+	"./governanceIconActive.svg": 292,
+	"./moreIcon.svg": 293,
+	"./moreIconActive.svg": 294,
+	"./newsIcon.svg": 295,
+	"./newsIconActive.svg": 391,
+	"./projectsIcon.svg": 392,
+	"./projectsIconActive.svg": 296,
+	"./swapIcon.svg": 162,
+	"./swapIconActive.svg": 393,
+	"./toolsLogo.svg": 161,
+	"./toolsLogoActive.svg": 285,
+	"./yieldsIcon.svg": 297,
+	"./yieldsIconActive.svg": 298
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 388;

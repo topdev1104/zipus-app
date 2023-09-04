@@ -1,0 +1,358 @@
+/* LG Device :992px. */
+
+
+
+
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 1440px) {
+    .graph-data-item p {
+        margin: 0;
+        line-height: 1;
+        opacity: 0.7;
+        font-size: 1.2rem;
+    }
+
+    .home-menu a span,
+    .menu-cat-one ul li a span,
+    .menu-cat-two ul li a span {
+        font-size: 11px;
+        position: relative;
+        /* top: -3px */
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    .copyright {
+        font-size: 12px;
+    }
+
+    .header-left {
+        padding-right: 60px;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    /* .right-content {
+        padding: 100px 20px 0 0;
+    } */
+
+    .header-right ul li a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .header-left {
+        width: 33%;
+    }
+
+    .header-right {
+        width: 45%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 992px) {
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .header-center,
+    .close-sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .body {
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .page_wrapper,
+    .content-wrapper {
+        overflow-x: hidden !important;
+    }
+
+    .header-wrap {
+        padding: 15px 0;
+    }
+
+    .header-left {
+        width: 62%;
+        margin: 0;
+        padding: 0 0 0 15px;
+    }
+
+    .header-center {
+        width: 20%;
+        padding-right: 20px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+
+    }
+
+    .hamburger-menu {
+        width: 35px;
+        height: 35px;
+        border-radius: 60%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .hamburger-menu span {
+        display: block;
+        width: 22px;
+        height: 3px;
+        background-color: #26202A;
+        margin: 2px auto;
+    }
+
+    .header-right {
+        width: 100%;
+        padding: 15px 20px;
+        margin: 15px 0 0;
+        overflow: hidden;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        padding-top: 20px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    .close-sidebar {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .close-sidebar i {
+        font-size: 24px;
+    }
+
+    .logo {
+        margin: 0 0 20px;
+    }
+
+    .logo a img {
+        /* max-width: 60px; */
+    }
+
+    /* .right-content {
+        width: 100%;
+        margin: 120px 0 0;
+        padding: 0;
+    } */
+
+    .graph-wrap {
+        padding: 25px 15px;
+    }
+
+    .graph-left {
+        border-right: none;
+    }
+
+    .graph-left,
+    .graph-right {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .minimize-wrap {
+        display: none;
+    }
+
+    .table-wrap {
+        width: 100%;
+        overflow-x: auto;
+        padding-top: 25px;
+    }
+
+    .table-head,
+    .table-data {
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0 20px 15px;
+    }
+
+    .table-head-item,
+    .table-data-item {
+        width: 150px;
+        min-width: 150px;
+        border-bottom: 1px solid #26202A;
+        padding-bottom: 15px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 10px;
+    }
+
+    body.theme-dark .table-wrap {
+        background-color: var(--black);
+    }
+
+    body.theme-white .table-wrap {
+        background-color: var(--white);
+    }
+
+    body.theme-dark .table-data-item a,
+    body.theme-white .table-data-item a {
+        line-height: 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+    .header-right ul li {
+        margin-left: 10px;
+    }
+
+    .header-right ul li a {
+        font-size: 11px;
+    }
+
+    .home-menu a span,
+    .menu-cat-one ul li a span,
+    .menu-cat-two ul li a span {
+        font-size: 14px;
+    }
+
+    .suggest-item h2 {
+        font-size: 22px;
+    }
+
+}
+
+/* MD Device :768px. */
+
+@media only screen and (min-width: 768px) {
+
+    .md-none {
+        display: none;
+    }
+
+}
+
+/* Extra small Device. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .header-left a,
+    .header-left span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header-left div {
+        margin-right: 16px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    /* .cSNndH {
+        display: block !important;
+    }
+
+    .dZkckO {
+        right: -5px !important;
+    }
+
+    .bBfHpH {
+        left: -5px !important
+    } */
+
+    .header-left a,
+    .header-left span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .header-left div {
+        margin-right: 12px;
+    }
+
+    #search-bar {
+        font-size: 16px;
+        padding: 10px 0 10px 8px;
+    }
+
+    .suggest-item h2 {
+        font-size: 20px;
+    }
+
+    .popup-modal {
+        max-width: 320px;
+        padding: 30px 0 15px;
+        position: fixed;
+
+    }
+
+    .popup-header,
+    .popup-body {
+        padding: 0 15px;
+    }
+
+    .popup-header-item p,
+    .popup-header-item span {
+        font-size: 16px;
+    }
+
+    .popup-body-item p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .popup-total {
+        padding: 28px 15px 24px;
+    }
+
+    .popup-total h6,
+    .popup-total p {
+        font-size: 18px;
+    }
+
+    .popup-close {
+        padding: 18px 15px 0;
+    }
+
+}
